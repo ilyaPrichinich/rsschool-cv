@@ -19,7 +19,8 @@ I have a goal of becoming a front-end developer, so I have a great desire to tea
 
 ## **Code**
 
-```function multiply(a, b){
+```
+function multiply(a, b){
   return a * b;
 };
 ```
