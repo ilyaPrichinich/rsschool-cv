@@ -61,10 +61,63 @@
             transition: 0.3s
 
 .main
-    &_container
+    &__wrapper 
         display: flex
-        flex-wrap: wrap
-
-.section 
-    width: 50%
-                       
+        min-height: 400px
+    &__left
+        width: 370px
+        background: #E8E020
+        padding: 30px 0 0 30px
+    &__right
+        display: flex
+        width: 1070px
+        padding: 30px 0 0 30px
+        background: #DEDEDE
+        section
+            width: 50%
+    &__title
+        width: 135px;
+        height: 33px;
+        background: black
+        color: #E8E020
+        font-weight: 300
+        font-size: 25px
+        text-align: center
+        border-radius: 18px
+    &__code
+        margin: 0 auto
+        margin-top: 20px
+        width: 400px
+        height: 200px
+        background: black
+        color: #FFFFFF
+.section
+    &__ul
+        margin-top: 20px
+        margin-left: 20px
+        li
+            font-weight: 500
+            font-size: 17px
+            margin-top: 5px
+            span
+                font-weight: 700
+            a
+                text-decoration: none
+                color: black
+                &:hover
+                    opacity: 0.5  
+    &__about
+        margin-top: 20px
+        font-weight: 500
+        font-size: 17px
+        padding-right: 80px
+    &__code
+        margin-left: 300px
+        margin-top: 20px
+        width: 400px
+        height: 120px
+        background: black
+        color: #FFFFFF
+        padding: 23px 20px
+                          
+        
